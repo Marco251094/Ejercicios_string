@@ -33,3 +33,43 @@ function reversa(str) {
   return arregloInv.join("");
 }
 console.log(reversa(  nombre2)); 
+
+/*Palíndromo: Palabra o expresión que se le si es igual de derecha a izquierda o visceversa
+Amma
+Otto
+Anina
+Natan
+An
+Ada
+Siris
+Aziza
+Ramar
+Nayan
+Radar*/
+/* const nombre3 = "";
+function palindromo (str){
+    let frase = str.split("");
+    let arreglopal = [];
+    let arreglorev= [];
+    for (let i = 0; i < frase.length; i++) {
+        arreglopal.push(frase[i]);
+    }
+    for ( let i = frase.lenght; i>=0; i--){
+        arreglorev = push(frase[i]);
+    }
+    if (arreglorev === arreglopal){
+        return palindromo(nombre3);
+    }
+    else {
+        return false ;}
+    } */
+    function esPalindromo(str){
+        str = str.toLowerCase();
+        str = str.replaceAll(" ", "");
+        if(reversa(str)==str)
+        return true;
+        
+        return false
+    }
+
+
