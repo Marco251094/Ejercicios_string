@@ -18,3 +18,18 @@ let contTemp = 1;
     }
 }
 console.log(letra, contFinal);
+
+// Entrada: Nombre
+// Salida: Nombre al revés
+
+const nombre2 = "La moneda que flota";
+
+function reversa(str) {
+  let arreglo = str.split("");
+  let arregloInv = [];
+  for (let i = arreglo.length; i >= 0; --i) {
+    arregloInv.push(arreglo[i]);
+  }
+  return arregloInv.join("");
+}
+console.log(reversa(nombre2)); 
