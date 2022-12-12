@@ -22,7 +22,7 @@ console.log(letra, contFinal);
 // Entrada: Nombre
 // Salida: Nombre al revés
 
-const nombre2 = "La moneda que flota";
+const nombre2 = "";
 
 function reversa(str) {
   let arreglo = str.split("");
@@ -32,4 +32,4 @@ function reversa(str) {
   }
   return arregloInv.join("");
 }
-console.log(reversa(nombre2)); 
+console.log(reversa(  nombre2)); 
